@@ -18,7 +18,7 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '崇实书院学业辅导与发展中心', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://csxf.online/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '资料分享, 崇实学辅', // 网站关键词 英文逗号隔开
-  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
+  BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fce7d7ee5-dc89-4fc9-be95-586c88edcd2e%2Fbef2c1ce-f378-481b-a7bd-35eaeca3e57a%2F%25E5%25BE%25AE%25E4%25BF%25A1%25E5%259B%25BE%25E7%2589%2587_20241015235805.png?table=collection&id=276c9f55-1e8c-8110-8ac2-000bfc339729&spaceId=ce7d7ee5-dc89-4fc9-be95-586c88edcd2e&width=60&userId=3517ead4-32ca-4395-9c54-bc1218fc01af&cache=v2', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
   BEI_AN_GONGAN: process.env.NEXT_PUBLIC_BEI_AN_GONGAN || '', // 公安备案号，例如 '浙公网安备3xxxxxxxx8号'
